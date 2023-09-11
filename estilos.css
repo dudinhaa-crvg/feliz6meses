@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#total{ 
+    height: auto;
+    width: 100%;
+}
+
+div#cabecalho{
+    width: 100%;
+    height: 130px;
+    float: left;
+    background-image: linear-gradient(to left, #2d2c55, #302c9b, #7895CB, #A0BFE0);
+    text-align: center;
+}
+
+@font-face {
+    font-family: manuscrita;
+    src: url(Winter\ Wind.ttf);
+}
+
+@font-face {
+    font-family: letrademaquina;
+    src: url(Fragmentcore.otf);
+}
+h1{
+    line-height: 0px;
+    font-family: manuscrita;
+    font-size: 45pt;
+}
+h5#subtitulo{
+    line-height: 0px;
+    font-family: letrademaquina;
+    font-size: 12pt;
+}
+
+div#conteudo{
+    float: left;
+    height: 1600px;
+    background-color: #afcdea;
+}
+
+
+.texto{ 
+   font-family: letrademaquina;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #2d2c55;
+}
+
+video{
+   width: 100%;
+   position: absolute;
+   top: 125px;
+   left: 0px;
+}
+
+.carrossel{
+    display: flex;
+    height: 30rem;
+    gap: 2rem;
+}
+
+.carrossel > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier( .25, .4, .45, 1.4);
+}
+
+.carrossel > div:hover{
+    flex: 5;
+}
+
+div#rodape{
+    width: 100%;
+    height: 85px;
+    float: left;
+    background-image: linear-gradient(to left, #2d2c55, #302c9b, #7895CB, #A0BFE0);
+    text-align: center;
+}
+
+h3#fim{
+    font-family: letrademaquina;
+    font-size: 18pt;
+    line-height: 10px;
+   margin-top: 45px;
+}
